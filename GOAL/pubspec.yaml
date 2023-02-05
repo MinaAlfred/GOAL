@@ -1,0 +1,47 @@
+name: goal
+description: A new Flutter project.
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.3.0 <3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  path_provider: any
+  provider: ^4.0.5+1
+  shared_preferences: any
+  animated_splash_screen: ^1.1.0
+  http: any
+  intl: ^0.17.0
+  flutter_launcher_icons: any
+  connectivity: ^2.0.2
+  top_snackbar_flutter: ^1.0.2
+  fluttertoast: any
+
+  cupertino_icons: ^1.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter_icons:
+    android: "ic_launcher"
+    ios: true
+    image_path: "assets/images/GOAL logo.png"
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+
+  fonts:
+    - family: Montserrat
+      fonts:
+        - asset: assets/fonts/Montserrat-Light.otf
+        - asset: assets/fonts/Montserrat-Bold.otf
